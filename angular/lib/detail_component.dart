@@ -8,6 +8,7 @@ import "package:angular2/platform/common.dart";
 @Component(
     selector: 'detail',
     template: '''
+        <br/>
         {{ variable }}
     '''
 )

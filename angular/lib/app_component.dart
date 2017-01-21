@@ -8,7 +8,7 @@ import "detail_component.dart";
 @Component(
     selector: 'my-app',
     templateUrl: 'app_component.html',
-    directives: const [ROUTER_DIRECTIVES],
+    directives: const [ROUTER_DIRECTIVES, DashboardComponent],
     providers: const [ROUTER_PROVIDERS]
 )
 @RouteConfig(const [

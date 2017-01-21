@@ -3,11 +3,12 @@ import 'package:angular2/core.dart';
 @Component(
     selector: 'dashboard',
     template: '''
-        {{ name }} Dashboard
+    <br/>
+    {{ name }} Dashboard 
     '''
 )
 class DashboardComponent{
     @Input()
-    String name="l";
+    String name="lhhhhhhhh";
 
 }
