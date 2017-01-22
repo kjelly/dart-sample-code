@@ -4,11 +4,11 @@ import 'package:angular2/core.dart';
     selector: 'dashboard',
     template: '''
     <br/>
-    {{ name }} Dashboard 
+    {{ name }} Dashboard
     '''
 )
 class DashboardComponent{
     @Input()
-    String name="lhhhhhhhh";
+    String name="Admin";
 
 }

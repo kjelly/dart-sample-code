@@ -1,6 +1,8 @@
 import 'package:angular2/core.dart';
 import 'package:angular2/router.dart';
 
+import 'package:ng_bootstrap/ng_bootstrap.dart';
+
 import "dashboard_component.dart";
 import "detail_component.dart";
 
@@ -8,7 +10,7 @@ import "detail_component.dart";
 @Component(
     selector: 'my-app',
     templateUrl: 'app_component.html',
-    directives: const [ROUTER_DIRECTIVES, DashboardComponent],
+    directives: const [ROUTER_DIRECTIVES, BS_DIRECTIVES, DashboardComponent],
     providers: const [ROUTER_PROVIDERS]
 )
 @RouteConfig(const [
