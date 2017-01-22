@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'package:angular2/core.dart';
 import 'package:angular2/router.dart';
-import 'package:http/http.dart';
 
 import 'package:ng_bootstrap/ng_bootstrap.dart';
 

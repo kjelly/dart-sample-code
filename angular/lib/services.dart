@@ -5,7 +5,6 @@ import 'package:http/http.dart';
 
 @Injectable()
 class MyService {
-
   final Client _http;
 
   MyService(this._http);
